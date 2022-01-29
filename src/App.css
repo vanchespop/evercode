@@ -1,0 +1,16 @@
+.App {
+    background-color: #282828;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #212121;
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px;
+}
