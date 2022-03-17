@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1px #4390E2;
+    margin: 0 18px;
+}
+
+.send {
+    background: #4390E2 url('/public/images/send.png') no-repeat center;
+    background-size: 20px;
+}
+
+.receive {
+    background: #4390E8 url('/public/images/receive.png') no-repeat center;
+    background-size: 20px;
+}
+
+.swap {
+    background: #4390E8 url('/public/images/swap.png') no-repeat center;
+    background-size: 20px;
+}
+
+.text {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+

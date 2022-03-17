@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 70px;
+    color: #FFFFFF;
+}
+
+.icon {
+
+}
+
+.info, .balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 2px solid #282828;
+}
+
+.balance {
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.secondary {
+    display: flex;
+    font-weight: lighter;
+}
+
+.positive {
+    color: #53A95B;
+}
+
+.negative {
+    color: #B56150;
+}

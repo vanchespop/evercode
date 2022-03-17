@@ -1,11 +1,11 @@
+import React from "react";
 import './App.css';
+import MainPage from "./Components/MainPage/MainPage";
 
 function App() {
     return (
         <div className="App">
-            <div className="container">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, dolorum.
-            </div>
+            <MainPage/>
         </div>
     );
 }
